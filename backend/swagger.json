@@ -5,13 +5,13 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "https://cse341-04-contacts-api.onrender.com",
+  "host": "cse341-04-contacts-api.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
   ],
   "paths": {
-    "/contacts/": {
+    "/contacts": {
       "get": {
         "description": "API key if needed: mySuperSecretApiKey123456",
         "parameters": [
