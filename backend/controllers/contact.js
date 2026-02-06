@@ -165,15 +165,15 @@ exports.deleteAll = (req, res) => {
 };
 
 // Find all published contacts
-exports.findAllPublished = (req, res) => {
-    Contact.find({ published: true })
-        .then((data) => {
-            res.send(data);
-        })
-        .catch((err) => {
-            res.status(500).send({
-                message:
-                    err.message || 'Some error occurred while retrieving contact.',
-            });
-        });
-};
+// exports.findAllPublished = (req, res) => {
+    // Contact.find({ published: true })
+        // .then((data) => {
+            // res.send(data);
+        // })
+        // .catch((err) => {
+            // res.status(500).send({
+                // message:
+                    // err.message || 'Some error occurred while retrieving contact.',
+            // });
+        // });
+// };

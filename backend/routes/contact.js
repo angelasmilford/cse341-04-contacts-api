@@ -20,6 +20,6 @@ routes.delete('/:contact_id', contacts.delete);
 routes.delete('/', contacts.deleteAll);
 
 // GET all published contacts
-routes.get('/', contacts.findAllPublished);
+// routes.get('/', contacts.findAllPublished);
 
 module.exports = routes;
